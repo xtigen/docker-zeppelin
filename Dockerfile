@@ -18,6 +18,7 @@ RUN set -ex \
     numpy \
     pandasql \
     scipy \
+    scikit-learn \
  ' \
  && pip3 install $packages \
  && rm -rf /root/.cache/pip \
